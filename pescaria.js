@@ -3,7 +3,6 @@ const resp = document.querySelector("h4")
 
 frm.addEventListener("submit", (e) =>{
     e.preventDefault()
-
     const pessoas = Number(frm.inNumero.value)
     const peixe = Number(frm.inPeixe.value)
     let resultado
@@ -14,5 +13,5 @@ frm.addEventListener("submit", (e) =>{
                }
                resp.innerText = `N° de pessoas: ${pessoas}\n
                                  N° de peixes: ${peixe}\n
-                                 Pagar: R$ ${resultado.toFixed(2)`
+                                 Pagar: R$ ${resultado.toFixed(2)}`   
             })
